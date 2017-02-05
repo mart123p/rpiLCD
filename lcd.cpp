@@ -7,7 +7,7 @@
 #include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <cstring>
-#include "LCD.h"
+#include "lcd.h"
 #include <iostream>
 
 void LCD::begin(uint8_t addr, uint8_t lcd_cols, uint8_t lcd_rows) {
